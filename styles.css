@@ -127,7 +127,6 @@ body {
   display: flex;
   max-width: 1050px;
   margin: 15px auto auto auto;
-  display: flex;
   justify-content: space-between;
 }
 
