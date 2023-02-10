@@ -25,6 +25,8 @@ body {
   /* No whitespace on top */
   top: 0px;
   border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -35,8 +37,6 @@ body {
 }
 
 .navigation {
-  display: flex;
-  justify-content: flex-end;
   padding: auto 10px;
   /* float: right; */
   /* Takes all the space it needs inside the header. */
