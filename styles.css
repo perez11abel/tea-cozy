@@ -109,10 +109,15 @@ body {
 
 /* Locations */
 
+/* TEST CONTAINER */
+.locations {
+  width: 100vw;
+}
+
 .banner {
   height: 500px;
   max-width: 1200px;
-  margin: 40px auto auto auto;
+  margin: 40px auto;
   padding-top: 85px;
   background-image: url("./images/locations.jpg");
   background-repeat: no-repeat;
