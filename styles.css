@@ -37,6 +37,8 @@ body {
 }
 
 .navigation {
+  display: flex;
+  justify-content: flex-end;
   padding: auto 10px;
   /* float: right; */
   /* Takes all the space it needs inside the header. */
