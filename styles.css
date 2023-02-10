@@ -14,7 +14,7 @@ body {
 /* Header */
 
 .header {
-  width: 100%;
+  width: 100vw;
   height: 69px;
   /* The header element will be in its own row; */
   display: block;
@@ -34,11 +34,14 @@ body {
 }
 
 .navigation {
-  float: right;
+  display: flex;
+  justify-content: flex-end;
+  padding: auto 10px;
+  /* float: right; */
   /* Takes all the space it needs inside the header. */
   height: 100%;
   /* Centered in the header container. */
-  margin: 0 auto;
+  margin: 0 10px;
 }
 
 .navigation a {
@@ -79,7 +82,7 @@ body {
 .text-over {
   margin: auto;
   background-color: black;
-  width: 100%;
+  width: 100vw;
 }
 
 /* Tea of the Month*/
@@ -120,6 +123,7 @@ body {
 }
 
 .box-container {
+  display: flex;
   max-width: 1050px;
   margin: 15px auto auto auto;
   display: flex;
