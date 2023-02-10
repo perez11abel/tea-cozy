@@ -21,6 +21,7 @@ body {
   background-color: black;
   /* Make header always visible */
   position: fixed;
+  z-index: 10;
   /* No whitespace on top */
   top: 0px;
   border-bottom: 1px solid seashell;
